@@ -1,0 +1,12 @@
+{
+  "name": "solid-action-in-row-cleanup",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --conditions=browser --conditions=development repro.mjs",
+    "prod": "node --conditions=browser repro.mjs"
+  },
+  "dependencies": {
+    "solid-js": "2.0.3"
+  }
+}
